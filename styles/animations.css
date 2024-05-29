@@ -49,6 +49,7 @@
     fill: transparent;
     transition: fill 0.3s 0.03s linear;
   }
+
   .like-icon:hover .core {
     fill: var(--fill-main);
     transition: fill 0.3s linear;
@@ -64,10 +65,6 @@
     transition: fill 0.3s 0.05s linear;
   }
   
-  .like-icon .core {
-    fill: transparent;
-    transition: fill 0.3s 0.03s linear;
-  }
   .like-icon:active .core {
     fill: var(--fill-accent);
     transition: fill 0.3s linear;

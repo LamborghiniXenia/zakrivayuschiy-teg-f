@@ -277,7 +277,9 @@
         </div>
         <h1 class="dialog__title">Вставьте дискету, чтобы продолжить</h1>
       </div>
-      <button type="button" onclick="window['dialog-id'].close()" class="dialog__button">ок</button>
+      <form method="dialog">
+        <button type="button" onclick="window['dialog-id'].close()" class="dialog__button">ок</button>
+      </form>
     </dialog>
   </body>
 </html>
